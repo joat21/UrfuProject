@@ -1,0 +1,23 @@
+.navbar {
+  padding: 0;
+  margin-bottom: 333px;
+}
+
+.navbar-brand {
+  margin-right: auto;
+  padding: 0;
+}
+
+.hero__btn:not(:last-child) {
+  margin-right: 38px;
+}
+
+.content {
+  display: flex;
+  padding: 0 150px;
+}
+
+.text {
+  margin-right: 248px;
+  max-width: 760px;
+}

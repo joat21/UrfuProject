@@ -1,0 +1,26 @@
+.dropdown {
+  display: inline-block;
+  overflow: hidden;
+  z-index: 2;
+  transition: max-width 0.7s ease-in-out;
+}
+
+.dropdown:hover {
+  max-width: 120px;
+}
+
+.dropdown__content {
+  display: block;
+  min-width: max-content;
+  position: relative;
+  overflow: hidden;
+  max-height: 0;
+  /* max-width: 0; */
+  background-color: #ccc;
+  transition: max-height 0.7s ease-out;
+}
+
+.dropdown:hover .dropdown__content {
+  max-height: 120px;
+}
+
