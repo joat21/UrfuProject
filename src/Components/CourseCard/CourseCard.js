@@ -1,11 +1,11 @@
 import { Card } from "react-bootstrap";
 
-const CourseCard = () => {
+const CourseCard = (props) => {
   return (
     <Card className="course-card">
       <Card.Body>
         <Card.Title>
-          <a href="#">Веб-технологии и верстка (Смешанный курс, SkillBox)</a>
+          <a href={props.course.link}>{props.course.name}</a>
         </Card.Title>
       </Card.Body>
     </Card>

@@ -1,8 +1,48 @@
 import { Form } from "react-bootstrap";
 import Sidenav from "../../Components/Sidenav/Sidenav";
-import CourseCard from "../../Components/CourseCard/CourseCard";
+import FinishedCoursesList from "../../Components/FinishedCoursesList";
 
-const CompletedCourses = () => {
+const FinishedCourses = () => {
+
+  const finishedCourses = [
+    {
+      name: "Веб-технологии и верстка (Смешанный курс, SkillBox)",
+      link: "#"
+    },
+    {
+      name: "Анализ данных и искусственный интеллект (онлайн, ИТМО, ОК)",
+      link: "#"
+    },
+    {
+      name: "Основные концепции биологии и экологии",
+      link: "#"
+    },
+    {
+      name: "Эффективные коммуникации (онлайн, УрФУ, ОК)",
+      link: "#"
+    },
+    {
+      name: "Теория вероятности и математическая статистика",
+      link: "#"
+    },
+    {
+      name: "Проектирование и реализация баз данных (Онлайн, ИТМО, ОК)",
+      link: "#"
+    },
+    {
+      name: "Баскетбол",
+      link: "#"
+    },
+    {
+      name: "Технологии программирования",
+      link: "#"
+    },
+    {
+      name: "Математика. Базовый уровень.",
+      link: "#"
+    }
+  ];
+
   return (
     <div>
       <Sidenav />
@@ -15,21 +55,10 @@ const CompletedCourses = () => {
           <option value="3 семестр">3 семестр</option>
           <option value="4 семестр">4 семестр</option>
         </Form.Select>
-
-        <ul className="list-reset courses-list">
-          <li className="courses__item"><CourseCard /></li>
-          <li className="courses__item"><CourseCard /></li>
-          <li className="courses__item"><CourseCard /></li>
-          <li className="courses__item"><CourseCard /></li>
-          <li className="courses__item"><CourseCard /></li>
-          <li className="courses__item"><CourseCard /></li>
-          <li className="courses__item"><CourseCard /></li>
-          <li className="courses__item"><CourseCard /></li>
-          <li className="courses__item"><CourseCard /></li>
-        </ul>
+        <FinishedCoursesList finishedCourses={finishedCourses}/>
       </div>
     </div>
   );
 }
 
-export default CompletedCourses;
+export default FinishedCourses;

@@ -34,7 +34,7 @@ img {
 /* Autorisation */
 .autorisation {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 291px 0;
   min-width: 1514px;
 }
@@ -82,7 +82,7 @@ img {
 /* registration */
 .registration {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 106px 0;
   min-width: 1514px;
 }
@@ -278,15 +278,15 @@ img {
 }
 
 .courses-list {
+  --offsets: 2;
   display: flex;
   flex-wrap: wrap;
   padding-left: 59px;
-  column-gap: 50px;
-  row-gap: 50px;
+  gap: 50px;
 }
 
 .course-card {
-  max-width: 497px;
+  width: 497px;
 }
 
 .course-card .card-body {
