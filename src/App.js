@@ -5,6 +5,7 @@ import Autorisation from './Pages/Authorization/Authorization';
 import Registration from './Pages/Registration/Registration';
 import MyDirection from './Pages/MyDirection/MyDirection';
 import FinishedCourses from './Pages/FinishedCourses/FinishedСourses';
+import FinishedCourse from './Pages/FinishedCourse/FinishedCourse';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/registration' Component={Registration} />
         <Route path='/my-direction' Component={MyDirection} />
         <Route path='/finished-courses' Component={FinishedCourses} />
+        <Route path='/finished-course' Component={FinishedCourse} />
       </Routes>
     </Router>
   );

@@ -1,15 +1,23 @@
 import { Card } from "react-bootstrap";
 import photo from "../../img/mentors/obabkov i.n.jpg";
+import MentorDesc from "../MentorDesc/MentorDesc";
+import styles from "./MentorCard.module.css";
 
-const MentorCard = () => {
+const MentorCard = (props) => {
+  const mentor = props.mentor;
+
   return (
-    <Card className="mentor-card">
-      <Card.Body>
-        <Card.Img variant="left" src={photo}/>
-        <div className="card__content">
-          <Card.Title className="full-name">Обабков Илья Николаевич</Card.Title>
-          <Card.Subtitle className="post">Руководитель образовательной программы</Card.Subtitle>
-          <div className="mentor__info">
+    <Card className={styles['mentor-card']}>
+      <Card.Body className={styles['card-body']}>
+        <Card.Img className={styles['mentor-card__photo']} variant="left" src={photo}/>
+        <div className={styles['card__content']}>
+          <Card.Title className={styles['full-name']}>{mentor["Имя"]}</Card.Title>
+          <Card.Subtitle className={styles.post}>{mentor["Должность"]}</Card.Subtitle>
+          <MentorDesc
+            id={mentor["id"]}
+            mentorDesc={mentor}
+          />
+          {/* <div className="mentor__info">
             <ul className="list-reset data__keys">
               <li className="data__key">
                 Адрес:
@@ -26,19 +34,19 @@ const MentorCard = () => {
             </ul>
             <ul className="list-reset data__values">
               <li className="data__value">
-                ул. Мира, 32
+                {props.address}
               </li>
               <li className="data__value">
-                Р-332
+                {props.audience}
               </li>
               <li className="data__value">
-                +7 (343) 375-97-00
+                {props.phone}
               </li>
               <li className="data__value">
-                <a href="mailto:i.n.obabkov@urfu.ru">i.n.obabkov@urfu.ru</a>
+                <a href={`mailto:${props.email}`}>{props.email}</a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </Card.Body>
     </Card>

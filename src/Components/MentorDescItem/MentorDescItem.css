@@ -1,0 +1,23 @@
+.desc__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc__item .data__key {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  color: #000;
+}
+
+.desc__item .data__value {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #000;
+}
+
+.data__value .link_email {
+  text-decoration: underline;
+}

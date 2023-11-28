@@ -1,47 +1,21 @@
 import { Form } from "react-bootstrap";
 import Sidenav from "../../Components/Sidenav/Sidenav";
 import FinishedCoursesList from "../../Components/FinishedCoursesList";
+import { useEffect, useState } from "react";
 
 const FinishedCourses = () => {
 
-  const finishedCourses = [
-    {
-      name: "Веб-технологии и верстка (Смешанный курс, SkillBox)",
-      link: "#"
-    },
-    {
-      name: "Анализ данных и искусственный интеллект (онлайн, ИТМО, ОК)",
-      link: "#"
-    },
-    {
-      name: "Основные концепции биологии и экологии",
-      link: "#"
-    },
-    {
-      name: "Эффективные коммуникации (онлайн, УрФУ, ОК)",
-      link: "#"
-    },
-    {
-      name: "Теория вероятности и математическая статистика",
-      link: "#"
-    },
-    {
-      name: "Проектирование и реализация баз данных (Онлайн, ИТМО, ОК)",
-      link: "#"
-    },
-    {
-      name: "Баскетбол",
-      link: "#"
-    },
-    {
-      name: "Технологии программирования",
-      link: "#"
-    },
-    {
-      name: "Математика. Базовый уровень.",
-      link: "#"
-    }
-  ];
+  const [finishedCourses, setFinishedCourses] = useState([]);
+
+  const setFinishedCoursesHandler = (data) => {
+    setFinishedCourses(data);
+  };
+
+  useEffect(() => {
+    fetch("http://localhost:5000/finishedCourses")
+      .then(response => response.json())
+      .then(data => setFinishedCoursesHandler(data))
+  }, []);
 
   return (
     <div>

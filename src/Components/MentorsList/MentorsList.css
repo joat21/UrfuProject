@@ -1,0 +1,11 @@
+.mentors-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 55px;
+  column-gap: 50px;
+  row-gap: 36px;
+}
+
+.mentors__item {
+  display: inline-block;
+}
