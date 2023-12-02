@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.course__desc {
+  position: relative;
+  padding-right: 160px;
+  width: 80%;
+}
+
+.course__desc::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 1px;
+  background-color: #2b4a52;
+}
+
+.course__add-info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-left: 60px;
+  width: 100%;
+}
+
+.grading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.grading__card {
+  margin-bottom: 60px;
+  max-width: 540px;
+}
+
+.grading__list {
+  display: flex;
+  gap: 77px;
+}
+
+.grading__item {
+  width: 227px;
+  height: 140px;
+  padding: 50px 30px 40px;
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.grading__item:nth-child(2n + 1) {
+  background-image: url("../../img/grading/item_odd__bg.svg");
+}
+
+.grading__item:nth-child(2n) {
+  background-image: url("../../img/grading/item_even__bg.svg");
+}
+
+.annotation {
+  margin-bottom: 60px;
+}
+
+.code-hours__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-info__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item__title {
+  margin-bottom: 15px;
+}

@@ -32,7 +32,7 @@ const Sidenav = () => {
       <Nav.Link className="sidenav__link">
         <img className="link__icon" src={iet} alt="menu" />
       </Nav.Link>
-      <Nav.Link className="sidenav__link">
+      <Nav.Link href="/trajectory-construction" className="sidenav__link">
         <img className="link__icon" src={trajectory} alt="menu" />
       </Nav.Link>
       <Nav.Link className="sidenav__link">

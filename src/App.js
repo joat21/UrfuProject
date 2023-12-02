@@ -6,6 +6,7 @@ import Registration from './Pages/Registration/Registration';
 import MyDirection from './Pages/MyDirection/MyDirection';
 import FinishedCourses from './Pages/FinishedCourses/FinishedСourses';
 import FinishedCourse from './Pages/FinishedCourse/FinishedCourse';
+import TrajectoryConstruction from './Pages/TrajectoryConstruction/TrajectoryConstruction';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/my-direction' Component={MyDirection} />
         <Route path='/finished-courses' Component={FinishedCourses} />
         <Route path='/finished-course' Component={FinishedCourse} />
+        <Route path='/trajectory-construction' Component={TrajectoryConstruction} />
       </Routes>
     </Router>
   );

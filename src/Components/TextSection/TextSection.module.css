@@ -1,0 +1,8 @@
+.section__title {
+  margin-bottom: 20px;
+}
+
+.section__title,
+.section__text {
+  white-space: pre-line;
+}

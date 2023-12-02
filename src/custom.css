@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  font-style: normal;
 }
 
 a {
@@ -77,6 +78,10 @@ img {
 
 .lk-page__title {
   margin-bottom: 50px;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: normal;
+  color: #2B4A52;
 }
 
 .list-reset {
@@ -171,10 +176,7 @@ img {
   margin-bottom: 50px;
 }
 
-.user {
-  display: flex;
-  margin-bottom: 70px;
-}
+
 
 .user__data {
   display: flex;
@@ -207,12 +209,12 @@ img {
   content: ":";
 }
 
-.data__key:not(:last-child),
-.data__value:not(:last-child) {
-  margin-bottom: 10px;
-}
 .desc__item {
   margin: 0;
+}
+
+.sidenav__wrapper {
+  min-width: max-content;
 }
 
 /* sidenav */
@@ -221,9 +223,9 @@ img {
   flex-direction: column;
   position: fixed;
   padding-top: 5px;
-  z-index: 1;
-  top: 0;
-  left: 0;
+  /* z-index: 1; */
+  /* top: 0;
+  left: 0; */
   /* max-width: 70px; */
   height: 100%;
   background: #537173;

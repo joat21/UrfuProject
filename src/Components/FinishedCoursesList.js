@@ -5,7 +5,7 @@ const FinishrdCoursesList = (props) => {
     <ul className="list-reset courses-list">
       {props.finishedCourses.map((finishedCourse) => (
         <li className="courses__item">
-          <CourseCard course={finishedCourse}/>
+          <CourseCard finished={true} course={finishedCourse}/>
         </li>
       ))};
     </ul>
