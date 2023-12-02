@@ -1,6 +1,6 @@
 import Sidenav from "../Sidenav/Sidenav";
 
-const LkPageTemplate = (props) => {
+const PageTemplate = (props) => {
   return (
     <div>
       <Sidenav />
@@ -12,4 +12,4 @@ const LkPageTemplate = (props) => {
   );
 }
 
-export default LkPageTemplate;
+export default PageTemplate;

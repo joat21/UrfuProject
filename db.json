@@ -1,4 +1,12 @@
 {
+  "user": {
+    "fullName": "Иванов Иван Васильевич",
+    "studentID": "90473894",
+    "group": "РИ-222222",
+    "email": "Ivanov.Ivan@urfu.me",
+    "direction": "Программная инженерия"
+  },
+
   "mentors": [
     {
       "id": 1,

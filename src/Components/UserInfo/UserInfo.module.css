@@ -1,0 +1,44 @@
+.user {
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.user__avatar {
+  margin-right: 40px;
+}
+
+.full-name {
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  color: #000;
+}
+
+.data__keys {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  margin-right: 40px;
+}
+
+.data__key {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  color: #537173;
+}
+
+.data__values {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.data__value {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  color: #000;
+}

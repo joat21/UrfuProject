@@ -11,6 +11,10 @@ const TrajectoryConstruction = () => {
         </p>
       </div>
 
+      <div className="courses-selection">
+        <h2>Расставьте приоритет выбора курсов в рамках каждого предмета</h2>
+      </div>
+
     </PageTemplate>
   );
 }
