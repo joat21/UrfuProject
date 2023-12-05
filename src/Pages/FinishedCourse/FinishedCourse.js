@@ -6,9 +6,8 @@ import styles from "./FinishedCourse.module.css";
 
 const FinishedCourse = () => {
   const course = useLocation().state;
-  console.log(course.finished);
   return (
-    <PageTemplate title={`${course.code} ${course.name}`}>
+    <PageTemplate title={`${course.code} ${course.name}`} isReturnButtonVisible={false}>
       <div className={styles.container}>
         <div className={styles['course__desc']}>
           <section className={styles['grading']}>

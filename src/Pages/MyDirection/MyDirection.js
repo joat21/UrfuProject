@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import PageTemplate from "../../Components/PageTemplate/PageTemplate";
 import UserInfo from "../../Components/UserInfo/UserInfo";
 import MentorsList from "../../Components/MentorsList/MentorsList";
+// import styles from "./MyDirection.module.css";
 
 const Personal = () => {
-
   const [user, setUser] = useState({});
 
   const setUserHandler = (data) => {
@@ -31,7 +31,6 @@ const Personal = () => {
   return (
     <PageTemplate title={"Мое направление"}>
       <UserInfo user={user}/>
-
       <MentorsList mentors={mentors}/>
     </PageTemplate>
   );

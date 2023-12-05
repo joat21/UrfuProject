@@ -1,0 +1,28 @@
+.desc-list__item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.data__key::after {
+  content: ":";
+}
+
+.data__key {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  color: #000;
+}
+
+.data__value {
+  margin: 0;
+  margin-left: auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: #000;
+}
+
+.link_email {
+  text-decoration: underline;
+}
