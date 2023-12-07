@@ -119,21 +119,10 @@ img {
 }
 
 /* Autorisation */
-.autorisation {
-  display: flex;
-  justify-content: center;
-  padding: 291px 0;
-  min-width: 1514px;
-}
-
 .form {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.form h1 {
-  margin-bottom: 60px;
 }
 
 .form__fields {
@@ -150,6 +139,17 @@ img {
   margin-bottom: 40px;
 }
 
+.form__field::placeholder {
+  font-size: 18px;
+  color: #879c9d;
+}
+
+.control__title {
+  margin-bottom: 50px;
+  font-size: 24px;
+  color: #2b4a52;
+}
+
 .form__field {
   padding: 0;
   width: 100%;
@@ -164,6 +164,15 @@ img {
 
 .bottom__text {
   margin-right: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2b4a52;
+}
+
+.form__link {
+  font-size: 16px;
+  line-height: 24px;
+  color: #1746a3;
 }
 
 /* registration */
