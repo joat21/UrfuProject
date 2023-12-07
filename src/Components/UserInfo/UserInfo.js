@@ -19,7 +19,7 @@ const UserInfo = (props) => {
       <div className={styles['user__info']}>
         <h2 className={styles['full-name']}>{props.user.fullName}</h2>
         {/* <DescList data={userData}/> */}
-        <div className="user__data">
+        <div className={styles['user__data']}>
           <ul className={`${styles['data__keys']} list-reset`}>
             <li className={`${styles['data__key']} data__key`}>&#8470; студенческого билета</li>
             <li className={`${styles['data__key']} data__key`}>Группа</li>

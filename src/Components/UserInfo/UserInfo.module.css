@@ -15,6 +15,10 @@
   color: #000;
 }
 
+.user__data {
+  display: flex;
+}
+
 .data__keys {
   display: flex;
   flex-direction: column;

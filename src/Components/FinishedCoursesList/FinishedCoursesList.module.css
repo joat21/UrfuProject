@@ -1,0 +1,7 @@
+.courses-list {
+  --offsets: 2;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 59px;
+  gap: 50px;
+}

@@ -5,12 +5,12 @@ import logo from "../../img/logo.svg";
 
 const Autorisation = () => {
   return (
-    <Container className={styles['authorization']}>
+    <Container className={styles.authorization}>
       <Link to={"/"}>
         <img className={styles.logo} src={logo} alt="Логотип UrFuture" />
       </Link>
       <form action="https://jsonplaceholder.typicode.com/posts" method="post" className="form">
-        <h1 className={`lk-page__title ${styles.title}`}>Авторизация</h1>
+        <h1 className="lk-page__title form__title">Авторизация</h1>
         <div className="form__fields">
           <div className="form__control">
             <label className="control__title">Email</label>

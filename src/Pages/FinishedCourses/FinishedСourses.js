@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { Form } from "react-bootstrap";
-import FinishedCoursesList from "../../Components/FinishedCoursesList";
+import FinishedCoursesList from "../../Components/FinishedCoursesList/FinishedCoursesList";
 import PageTemplate from "../../Components/PageTemplate/PageTemplate";
+import styles from "./FinishedCourses.module.css";
 
 const FinishedCourses = () => {
 
@@ -19,7 +20,7 @@ const FinishedCourses = () => {
 
   return (
     <PageTemplate title={"Пройденные курсы"}>
-      <Form.Select>
+      <Form.Select className={styles['form__select']}>
         <option value="все семестры">Все семестры</option>
         <option value="1 семестр">1 семестр</option>
         <option value="2 семестр">2 семестр</option>

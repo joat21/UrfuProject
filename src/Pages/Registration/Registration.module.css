@@ -1,0 +1,50 @@
+.registration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../../img/bg.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.first-row {
+  display: flex;
+}
+
+.first-row .form__control {
+  width: 49%;
+}
+
+.first-row .form__control:not(:last-child) {
+  margin-right: 30px;
+}
+
+.control__title {
+  margin: 0;
+}
+
+.control__title::after {
+  content: "*";
+}
+
+.form__field {
+  padding: 21px 20px;
+  border: 3px solid #2b4a52;
+  height: 64px;
+}
+
+.form__control:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 16px 25px;
+}
