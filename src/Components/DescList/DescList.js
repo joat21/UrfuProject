@@ -7,6 +7,7 @@ const DescList = (props) => {
     <dl className={styles['desc-list']}>
       {dataKeys.map((dataKey) => (
         <DescListItem
+          key={dataKey}
           dataKey={dataKey}
           value={props.data[dataKey]}
         />

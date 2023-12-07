@@ -6,12 +6,10 @@ import styles from "./MentorCard.module.css";
 
 const MentorCard = (props) => {
   const mentor = props.mentor;
-  console.log(mentor);
   const length = Object.keys(mentor).length;
   // const splicedKeys = keys.splice(3, keys.length - 1);
 
   const mentorData = Object.fromEntries(Object.entries(mentor).slice(4, length));
-  console.log(mentorData);
 
   return (
     <Card className={styles['mentor-card']}>

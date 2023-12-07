@@ -5,7 +5,7 @@ const MentorsList = (props) => {
   return (
     <ul className="list-reset mentors-list">
       {props.mentors.map((mentor) => (
-        <li className="mentors__item">
+        <li key={mentor.id} className="mentors__item">
             <MentorCard mentor={mentor} />
         </li>
       ))}

@@ -20,7 +20,7 @@ const FinishedCourses = () => {
 
   return (
     <PageTemplate title={"Пройденные курсы"}>
-      <Form.Select className={styles['form__select']}>
+      <Form.Select name="semester-select" className={styles['form__select']}>
         <option value="все семестры">Все семестры</option>
         <option value="1 семестр">1 семестр</option>
         <option value="2 семестр">2 семестр</option>

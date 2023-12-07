@@ -5,13 +5,13 @@ const FinishrdCoursesList = (props) => {
   return (
     <ul className={`list-reset ${styles['courses-list']}`}>
       {props.finishedCourses.map((finishedCourse) => (
-        <li key={finishedCourse.code} className="courses__item">
+        <li key={finishedCourse.id} className="courses__item">
           <CourseCard
             finished={true}
             course={finishedCourse}
           />
         </li>
-      ))};
+      ))}
     </ul>
   );
 }
