@@ -1,3 +1,9 @@
+/* hero */
+.hero {
+  padding-top: 50px;
+  min-width: 1820px;
+}
+
 .navbar {
   padding: 0;
   margin-bottom: 333px;
