@@ -6,6 +6,7 @@ import styles from "./FinishedCourse.module.css";
 
 const FinishedCourse = () => {
   const course = useLocation().state;
+
   return (
     <PageTemplate title={`${course.code} ${course.name}`} isReturnButtonVisible={false}>
       <div className={styles.container}>

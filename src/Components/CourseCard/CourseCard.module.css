@@ -1,23 +1,28 @@
-.course-card {
+.card {
   position: relative;
+  z-index: 0;
   border-radius: 15px;
+  border: none;
   width: 497px;
   height: 190px;
+  overflow: hidden;
 }
 
-.card__body {
+.body {
   padding: 31px 123px 72px 33px;
 }
 
-.card__title {
+.title {
+  z-index: 50;
   margin: 0;
   font-size: 24px;
   font-weight: 500;
   line-height: normal;
   color: #000;
+  white-space: pre-line;
 }
 
-.card__link::before {
+.link::before {
   content: "";
   position: absolute;
   top: 0;

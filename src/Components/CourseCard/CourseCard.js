@@ -4,10 +4,12 @@ import { Link } from "react-router-dom";
 
 const CourseCard = (props) => {
   return (
-    <Card className={styles['course-card']}>
-      <Card.Body className={styles['card__body']}>
-        <Card.Title className={styles['card__title']}>
-          <Link to={`/finished-courses/${props.course.id}`} state={props.course} className={styles['card__link']}>{props.course.name}</Link>
+    <Card className={styles.card} style={{background: `linear-gradient(90deg, #D3D7D6 0.1%, #D3D7D6 31.59%, rgba(211, 215, 214, 0.86) 65.37%, rgba(211, 215, 214, 0.00) 99.87%), url('${props.course.bg}') no-repeat center / cover`}}>
+      <Card.Body className={styles.body}>
+        <Card.Title className={styles.title}>
+          <Link to={`/finished-courses/${props.course.id}`} state={props.course} className={styles.link}>
+            {props.course.name}
+          </Link>
         </Card.Title>
       </Card.Body>
     </Card>

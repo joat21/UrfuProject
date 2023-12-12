@@ -19,11 +19,11 @@ const Personal = () => {
   }
 
   useEffect(() => {
-    fetch("http://localhost:5000/user")
+    fetch("https://my-json-server.typicode.com/joat21/UrfuProject/user")
       .then(response => response.json())
       .then(data => setUserHandler(data));
 
-    fetch("http://localhost:5000/mentors")
+    fetch("https://my-json-server.typicode.com/joat21/UrfuProject/mentors")
       .then(response => response.json())
       .then(data => setMentorsHandler(data));
   }, [])

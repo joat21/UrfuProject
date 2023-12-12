@@ -58,7 +58,8 @@
         "Новиков Максим Юрьевич",
         "Новиков Максим Юрьевич"
       ],
-      "maxStudentsCount": 100
+      "maxStudentsCount": 100,
+      "bg": "https://doffie.com/wp-content/uploads/2020/10/Bahasa-Pemrograman-Terbaik-Untuk-Pemula.jpg"
     },
     {
       "id": "c2",
@@ -68,7 +69,8 @@
       "result": "#",
       "hours": "#",
       "authors": [],
-      "maxStudentsCount": "#"
+      "maxStudentsCount": "#",
+      "bg": "https://doffie.com/wp-content/uploads/2020/10/Bahasa-Pemrograman-Terbaik-Untuk-Pemula.jpg"
     },
     {
       "id": "c3",
@@ -78,7 +80,8 @@
       "result": "#",
       "hours": "#",
       "authors": [],
-      "maxStudentsCount": "#"
+      "maxStudentsCount": "#",
+      "bg": "https://doffie.com/wp-content/uploads/2020/10/Bahasa-Pemrograman-Terbaik-Untuk-Pemula.jpg"
     },
     {
       "id": "c4",
@@ -88,17 +91,19 @@
       "result": "#",
       "hours": "#",
       "authors": [],
-      "maxStudentsCount": "#"
+      "maxStudentsCount": "#",
+      "bg": "https://doffie.com/wp-content/uploads/2020/10/Bahasa-Pemrograman-Terbaik-Untuk-Pemula.jpg"
     },
     {
       "id": "c5",
       "code": "#",
-      "name": "Теория вероятности и математическая статистика",
+      "name": "Теория вероятности\nи математическая статистика",
       "annotation": "#",
       "result": "#",
       "hours": "#",
       "authors": [],
-      "maxStudentsCount": "#"
+      "maxStudentsCount": "#",
+      "bg": "https://miprofeclases.org.pe/wp-content/uploads/2020/03/matematicas-aplicadas-a-la-administracion-y-los-negocios-hoffman-pdf-768x432.jpg"
     },
     {
       "id": "c6",
@@ -108,7 +113,8 @@
       "result": "#",
       "hours": "#",
       "authors": [],
-      "maxStudentsCount": "#"
+      "maxStudentsCount": "#",
+      "bg": "https://doffie.com/wp-content/uploads/2020/10/Bahasa-Pemrograman-Terbaik-Untuk-Pemula.jpg"
     },
     {
       "id": "c7",
@@ -118,7 +124,8 @@
       "result": "#",
       "hours": "#",
       "authors": [],
-      "maxStudentsCount": "#"
+      "maxStudentsCount": "#",
+      "bg": "https://wallbox.ru/resize/640x480/wallpapers/main2/202118/162054915860979e2682af41.50542918.jpg"
     },
     {
       "id": "c8",
@@ -128,7 +135,8 @@
       "result": "#",
       "hours": "#",
       "authors": [],
-      "maxStudentsCount": "#"
+      "maxStudentsCount": "#",
+      "bg": "https://doffie.com/wp-content/uploads/2020/10/Bahasa-Pemrograman-Terbaik-Untuk-Pemula.jpg"
     },
     {
       "id": "c9",
@@ -138,7 +146,8 @@
       "result": "#",
       "hours": "#",
       "authors": [],
-      "maxStudentsCount": "#"
+      "maxStudentsCount": "#",
+      "bg": "https://miprofeclases.org.pe/wp-content/uploads/2020/03/matematicas-aplicadas-a-la-administracion-y-los-negocios-hoffman-pdf-768x432.jpg"
     }
   ]
 }
