@@ -1,0 +1,25 @@
+.add-info__item {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.item__title {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  color: #2B4A52;
+  white-space: pre-line;
+}
+
+.item__title::after {
+  content: ":";
+}
+
+.content,
+.content_list {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  color: #000;
+}

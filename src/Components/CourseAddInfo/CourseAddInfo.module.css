@@ -1,0 +1,16 @@
+.course__add-info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-left: 60px;
+  width: 100%;
+}
+
+.code-hours__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.code-hours__wrapper .add-info__item {
+  width: 49%;
+}

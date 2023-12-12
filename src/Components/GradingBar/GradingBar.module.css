@@ -1,0 +1,39 @@
+.grading-bar {
+  position: relative;
+  width: 100%;
+  /* height: 17px; */
+}
+
+.bar__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 17px;
+}
+
+.bar__bg {
+  height: 10px;
+  border-radius: 5px;
+  background-color: #d3d7d6;
+  overflow: hidden;
+}
+
+.bar__fill {
+  height: 100%;
+  background-color: #99e5b2;
+}
+
+.grades {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grades {
+  width: 102%;
+
+}
+
+.your-grade {
+  position: absolute;
+}

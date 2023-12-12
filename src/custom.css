@@ -89,7 +89,7 @@ img {
   position: relative;
   margin: 0;
   margin-left: 70px;
-  padding: 60px;
+  padding: 60px 40px 60px 70px;
   min-height: 1200px;
 }
 

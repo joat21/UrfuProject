@@ -1,7 +1,8 @@
 import { useLocation } from "react-router";
-import { Card } from "react-bootstrap";
 import PageTemplate from "../../Components/PageTemplate/PageTemplate";
+import GradingCard from "../../Components/GradingCard/GradingCard";
 import TextSection from "../../Components/TextSection/TextSection";
+import CourseAddInfo from "../../Components/CourseAddInfo/CourseAddInfo";
 import styles from "./FinishedCourse.module.css";
 
 const FinishedCourse = () => {
@@ -12,25 +13,28 @@ const FinishedCourse = () => {
       <div className={styles.container}>
         <div className={styles['course__desc']}>
           <section className={styles['grading']}>
-            <Card className={styles['grading__card']}>
-              <Card.Body>
-                <Card.Title>Итоговый балл:</Card.Title>
-                <Card.Text>93/100</Card.Text>
-              </Card.Body>
-            </Card>
+            <GradingCard grade={course.grade}/>
 
             <ul className={`${styles['grading__list']} list-reset`}>
               <li className={styles['grading__item']}>
-                Бальная шкала оценивания
+                <span className={styles['item__text']}>
+                  <span className={styles['item__text_bold']}>Бальная</span> шкала оценивания
+                </span>
               </li>
               <li className={styles['grading__item']}>
-                Максимальное количество баллов&nbsp;&mdash; 100
+                <span className={styles['item__text']}>
+                  Максимальное количество баллов&nbsp;&mdash; <span className={styles['item__text_bold']}>100</span>
+                </span>
               </li>
               <li className={styles['grading__item']}>
-                Количество предметов контроля&nbsp;&mdash; 33
+                <span className={styles['item__text']}>
+                  Количество предметов контроля&nbsp;&mdash; <span className={styles['item__text_bold']}>33</span>
+                </span>
               </li>
               <li className={styles['grading__item']}>
-                Итоговый проект&nbsp;&mdash; эссе
+                <span className={styles['item__text']}>
+                  Итоговый проект&nbsp;&mdash; <span className={styles['item__text_bold']}>эссе</span>
+                </span>
               </li>
             </ul>
           </section>
@@ -38,31 +42,7 @@ const FinishedCourse = () => {
           <TextSection className={styles.annotation} title="Аннотация" text={course.annotation}/>
           <TextSection title="Образовательный результат" text={course.result}/>
         </div>
-        <div className={styles['course__add-info']}>
-          <div className={styles['code-hours__wrapper']}>
-            <div className={styles['add-info__item']}>
-              <span className={styles['item__title']}>Код</span>
-              <span>{course.code}</span>
-            </div>
-            <div className={styles['add-info__item']}>
-              <span className={styles['item__title']}>Ак.&nbsp;часы</span>
-              <span>{course.hours}</span>
-            </div>
-          </div>
-          <div className={styles['add-info__item']}>
-            <span className={styles['item__title']}>Авторы</span>
-            <ul className="list-reset">
-              {course.authors.map(author => (
-                <li>{author}</li>
-              ))}
-            </ul>
-          </div>
-          <div className={styles['add-info__item']}>
-            <span className={styles['item__title']}>Макс. кол-во обучающихся</span>
-            <span>{course.maxStudentsCount}</span>
-          </div>
-
-        </div>
+        <CourseAddInfo course={course} />
       </div>
     </PageTemplate>
   );

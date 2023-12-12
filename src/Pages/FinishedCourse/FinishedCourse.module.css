@@ -20,24 +20,11 @@
   background-color: #2b4a52;
 }
 
-.course__add-info {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  padding-left: 60px;
-  width: 100%;
-}
-
 .grading {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 70px;
-}
-
-.grading__card {
-  margin-bottom: 60px;
-  max-width: 540px;
 }
 
 .grading__list {
@@ -48,11 +35,16 @@
 .grading__item {
   width: 227px;
   height: 140px;
-  padding: 50px 30px 40px;
-  color: #fff;
+  padding: 42px 30px 23px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.grading__item:first-child,
+.grading__item:last-child {
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 
 .grading__item:nth-child(2n + 1) {
@@ -63,20 +55,17 @@
   background-image: url("../../img/grading/item_even__bg.svg");
 }
 
+.item__text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #FFF;
+}
+
+.item__text_bold {
+  font-weight: 700;
+}
+
 .annotation {
   margin-bottom: 60px;
-}
-
-.code-hours__wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-
-.add-info__item {
-  display: flex;
-  flex-direction: column;
-}
-
-.item__title {
-  margin-bottom: 15px;
 }
