@@ -38,8 +38,8 @@ const Sidenav = () => {
       <Nav.Link className="sidenav__link">
         <img className="link__icon" src={professions} alt="menu" />
       </Nav.Link>
-      <Nav.Link className="sidenav__link">
-        <img className="link__icon" src={careerTest} alt="тест по профориентации" />
+      <Nav.Link  href="/career-test" className="sidenav__link">
+        <img className="link__icon" src={careerTest} alt="тест на профориентацию" />
       </Nav.Link>
 
       <svg className="decorate-line" width="46" height="1" viewBox="0 0 46 1" fill="none" xmlns="http://www.w3.org/2000/svg">
