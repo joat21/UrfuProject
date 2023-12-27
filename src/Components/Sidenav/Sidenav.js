@@ -46,7 +46,7 @@ const Sidenav = () => {
         <line y1="0.5" x2="46" y2="0.5" stroke="#F9F9F9"/>
       </svg>
 
-      <Nav.Link className="sidenav__link">
+      <Nav.Link href="/account" className="sidenav__link">
         <img className="link__icon" src={account} alt="account" />
       </Nav.Link>
     </Navbar>

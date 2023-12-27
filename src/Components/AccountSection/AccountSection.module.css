@@ -1,0 +1,30 @@
+.section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 180px 0 150px;
+}
+
+.section:not(:last-child) {
+  margin-bottom: 70px;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--base-hovered, #2B4A52);
+}
+
+.desc {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.info {
+  width: 50%;
+}
+
+.content {
+  width: 568px;
+}

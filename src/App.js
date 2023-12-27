@@ -8,6 +8,7 @@ import FinishedCourses from './Pages/FinishedCourses/FinishedСourses';
 import FinishedCourse from './Pages/FinishedCourse/FinishedCourse';
 import TrajectoryConstruction from './Pages/TrajectoryConstruction/TrajectoryConstruction';
 import CareerTest from './Pages/CareerTest/CareerTest';
+import Account from './Pages/Account/Account';
 import Error from './Pages/Error/Error';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/finished-courses/:course' Component={FinishedCourse} />
         <Route path='/trajectory-construction' Component={TrajectoryConstruction} />
         <Route path='/career-test' Component={CareerTest} />
+        <Route path='/account' Component={Account} />
         <Route path='*' Component={Error}/>
       </Routes>
     </Router>
