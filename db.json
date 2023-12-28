@@ -161,5 +161,53 @@
       "maxStudentsCount": "#",
       "bg": "https://miprofeclases.org.pe/wp-content/uploads/2020/03/matematicas-aplicadas-a-la-administracion-y-los-negocios-hoffman-pdf-768x432.jpg"
     }
+  ],
+
+  "professions": [
+    {
+      "id": "p1",
+      "title": "Веб-разработчик",
+      "testDate": "12.09.2022"
+    },
+    {
+      "id": "p2",
+      "title": "Бизнес-аналитик",
+      "testDate": "12.09.2022"
+    },
+    {
+      "id": "p3",
+      "title": "Инженер по тестированию",
+      "testDate": "13.09.2022"
+    },
+    {
+      "id": "p4",
+      "title": "IOS-разработчик",
+      "testDate": "13.09.2022"
+    },
+    {
+      "id": "p5",
+      "title": "Аналитик",
+      "testDate": "10.10.2022"
+    },
+    {
+      "id": "p6",
+      "title": "Графический дизайнер",
+      "testDate": "10.10.2022"
+    },
+    {
+      "id": "p7",
+      "title": "UI/UX специалист",
+      "testDate": "10.10.2022"
+    },
+    {
+      "id": "p8",
+      "title": "Специалист по Machine Learning",
+      "testDate": "10.10.2022"
+    },
+    {
+      "id": "p9",
+      "title": "Специалист по Deep Learning",
+      "testDate": "10.10.2022"
+    }
   ]
 }

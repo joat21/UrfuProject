@@ -35,8 +35,8 @@ const Sidenav = () => {
       <Nav.Link href="/trajectory-construction" className="sidenav__link">
         <img className="link__icon" src={trajectory} alt="menu" />
       </Nav.Link>
-      <Nav.Link className="sidenav__link">
-        <img className="link__icon" src={professions} alt="menu" />
+      <Nav.Link href="/professions" className="sidenav__link">
+        <img className="link__icon" src={professions} alt="профессии" />
       </Nav.Link>
       <Nav.Link  href="/career-test" className="sidenav__link">
         <img className="link__icon" src={careerTest} alt="тест на профориентацию" />
