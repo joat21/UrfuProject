@@ -7,10 +7,6 @@ import MentorsList from "../../Components/MentorsList/MentorsList";
 const Personal = () => {
   const [user, setUser] = useState({});
 
-  const setUserHandler = (data) => {
-    setUser(data);
-  }
-
   const [mentors, setMentors] = useState([]);
 
   const setMentorsHandler = (data) => {
@@ -21,7 +17,7 @@ const Personal = () => {
   useEffect(() => {
     fetch("https://my-json-server.typicode.com/joat21/UrfuProject/user")
       .then(response => response.json())
-      .then(data => setUserHandler(data));
+      .then(data => setUser(data));
 
     fetch("https://my-json-server.typicode.com/joat21/UrfuProject/mentors")
       .then(response => response.json())

@@ -17,7 +17,7 @@ const UserInfo = (props) => {
       </svg>
 
       <div className={styles['user__info']}>
-        <h2 className={styles['full-name']}>{props.user.fullName}</h2>
+        <h2 className={styles['full-name']}>{`${props.user.surname} ${props.user.name} ${props.user.patronymic}`}</h2>
         {/* <DescList data={userData}/> */}
         <div className={styles['user__data']}>
           <ul className={`${styles['data__keys']} list-reset`}>
@@ -35,7 +35,7 @@ const UserInfo = (props) => {
               {props.user.group}
             </li>
             <li className={styles['data__value']}>
-              {props.user.email}
+              {props.user.urfuEmail}
             </li>
             <li className={styles['data__value']}>
               {props.user.direction}
