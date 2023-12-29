@@ -16,11 +16,11 @@ const FinishedCourses = () => {
   return (
     <PageTemplate title={"Пройденные курсы"}>
       <Form.Select name="semester-select" className={styles['form__select']}>
-        <option className={styles['form__option']} value="все семестры">Все семестры</option>
-        <option className={styles['form__option']} value="1 семестр">1 семестр</option>
-        <option className={styles['form__option']} value="2 семестр">2 семестр</option>
-        <option className={styles['form__option']} value="3 семестр">3 семестр</option>
-        <option className={styles['form__option']} value="4 семестр">4 семестр</option>
+        <option className={styles['form__option']} value="all">Все семестры</option>
+        <option className={styles['form__option']} value="1">1 семестр</option>
+        <option className={styles['form__option']} value="2">2 семестр</option>
+        <option className={styles['form__option']} value="3">3 семестр</option>
+        <option className={styles['form__option']} value="4">4 семестр</option>
       </Form.Select>
       <FinishedCoursesList finishedCourses={finishedCourses}/>
     </PageTemplate>

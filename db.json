@@ -7,7 +7,8 @@
     "group": "РИ-222222",
     "urfuEmail": "Ivanov.Ivan@urfu.me",
     "reserveEmail": "IvanovIvan345@gmail.com",
-    "direction": "Программная инженерия"
+    "direction": "Программная инженерия",
+    "recommendedSchedule": {}
   },
 
   "mentors": [

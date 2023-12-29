@@ -10,6 +10,7 @@ import TrajectoryConstruction from './Pages/TrajectoryConstruction/TrajectoryCon
 import CareerTest from './Pages/CareerTest/CareerTest';
 import Account from './Pages/Account/Account';
 import Professions from './Pages/Professions/Professions';
+import RecommendedSchedule from './Pages/RecommendedSchedule/RecommendedSchedule';
 import Error from './Pages/Error/Error';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path='/career-test' Component={CareerTest} />
         <Route path='/account' Component={Account} />
         <Route path='/professions' Component={Professions} />
+        <Route path='/recommended-schedule' Component={RecommendedSchedule} />
         <Route path='*' Component={Error}/>
       </Routes>
     </Router>

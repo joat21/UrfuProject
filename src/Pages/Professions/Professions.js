@@ -8,7 +8,7 @@ const Professions = () => {
   const [professions, setProfessions] = useState([]);
 
   useEffect(() => {
-    fetch("https://my-json-server.typicode.com/professions")
+    fetch("https://my-json-server.typicode.com/joat21/UrfuProject/professions")
       .then(response => response.json())
       .then(data => setProfessions(data));
   }, []);
