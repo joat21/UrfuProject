@@ -131,6 +131,12 @@ img {
   background-color: #2b4a52;
 }
 
+.btn.disabled,
+.btn:disabled,
+fieldset:disabled .btn {
+  background-color: var(--base-disabled, #879C9D);
+}
+
 /* form */
 .form {
   display: flex;
@@ -190,6 +196,11 @@ img {
   font-size: 16px;
   line-height: 24px;
   color: #1746a3;
+}
+
+.form-check-input {
+  background-color: transparent;
+  border-color: #879c9d;
 }
 
 /* desc list */

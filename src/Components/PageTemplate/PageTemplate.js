@@ -8,7 +8,10 @@ const PageTemplate = (props) => {
     <div>
       <Sidenav />
       <div className="lk-container">
-        <div className={styles['btn-title__wrapper']}>
+        <div
+          className={styles['btn-title__wrapper']}
+          style={{display: isReturnButtonVisible && props.title === "" ? 'block' : 'none'}}
+        >
           <h1 className="lk-page__title">{props.title}</h1>
           <ReturnButton style={{display: isReturnButtonVisible ? 'inline-block' : 'none'}}/>
         </div>
