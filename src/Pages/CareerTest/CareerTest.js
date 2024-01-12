@@ -13,7 +13,7 @@ const CareerTest = () => {
   let button;
 
   useEffect(() => {
-    fetch("https://my-json-server.typicode.com/joat21/UrfuProject/careerTestQuestions")
+    fetch("https://6576ab1f0fd5d07e432ecbaa.mockapi.io/careerTestQuestions")
       .then(response => response.json())
       .then(data => setQuestions(data));
   }, []);
@@ -31,7 +31,7 @@ const CareerTest = () => {
   const onCompleteButtonClick = () => {
     if (!isVariantChoosed) return;
 
-    fetch('https://my-json-server.typicode.com/joat21/UrfuProject/careerTestAnswers', {
+    fetch('https://6576ab1f0fd5d07e432ecbaa.mockapi.io/careerTestAnswers', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json;charset=utf-8'
@@ -49,6 +49,7 @@ const CareerTest = () => {
 
   if (questionNumber === questions.length - 1) {
     button = <Button
+              href="/career-test-interim-result"
               onClick={onCompleteButtonClick}
               className={`btn-reset ${styles.btn}`}
               style={{padding: '16px 34px'}}

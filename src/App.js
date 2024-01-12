@@ -9,6 +9,7 @@ import FinishedCourse from './Pages/FinishedCourse/FinishedCourse';
 import TrajectoryConstruction from './Pages/TrajectoryConstruction/TrajectoryConstruction';
 import CareerTestMain from './Pages/CareerTestMain/CareerTestMain';
 import CareerTest from './Pages/CareerTest/CareerTest';
+import CareerTestInterimResult from './Pages/CareerTestInterimResult/CareerTestInterimResult';
 import Account from './Pages/Account/Account';
 import Professions from './Pages/Professions/Professions';
 import RecommendedSchedule from './Pages/RecommendedSchedule/RecommendedSchedule';
@@ -27,6 +28,7 @@ function App() {
         <Route path='/trajectory-construction' Component={TrajectoryConstruction} />
         <Route path='/career-test' Component={CareerTestMain} />
         <Route path='/career-test-questions' Component={CareerTest} />
+        <Route path='/career-test-interim-result' Component={CareerTestInterimResult} />
         <Route path='/account' Component={Account} />
         <Route path='/professions' Component={Professions} />
         <Route path='/recommended-schedule' Component={RecommendedSchedule} />
