@@ -14,7 +14,7 @@ const MentorCard = (props) => {
   return (
     <Card className={styles['mentor-card']}>
       <Card.Body className={styles['card-body']}>
-        <Card.Img className={styles['mentor-card__photo']} variant="left" src={mentor.photo}/>
+        <Card.Img className={styles['mentor-card__photo']} variant="left" src={mentor.photo} alt={`Фото ${mentor["Имя"]}`}/>
         <div className={styles['card__content']}>
           <Card.Title className={styles['mentor__name']}>{mentor["Имя"]}</Card.Title>
           <Card.Subtitle className={styles.post}>{mentor["Должность"]}</Card.Subtitle>
