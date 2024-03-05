@@ -3,6 +3,7 @@ import PageTemplate from "../../Components/PageTemplate/PageTemplate";
 import DonutChartWithLegend from "../../Components/DonutChartWithLegend/DonutChartWithLegend";
 import styles from "./CareerTestInterimResult.module.css";
 
+// значения для диаграммы из макета
 const data = [
   { name: "Человек-знаковая система", value: 8.13 },
   { name: "Человек-техника", value: 17.08 },
@@ -13,6 +14,7 @@ const data = [
 
 const COLORS = ["#FFDF80", "#66BFFF", "#CA9EFF", "#99E5B2", "#FFC5BD"];
 
+// страница не доделана
 const CareerTestInterimResult = () => {
   return (
     <PageTemplate>

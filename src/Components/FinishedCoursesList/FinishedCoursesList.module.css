@@ -1,5 +1,4 @@
-.courses-list {
-  --offsets: 2;
+.list {
   display: flex;
   flex-wrap: wrap;
   padding-left: 59px;

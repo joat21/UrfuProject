@@ -18,6 +18,9 @@ const UserInfo = (props) => {
 
       <div className={styles['user__info']}>
         <h2 className={styles['full-name']}>{`${props.user.surname} ${props.user.name} ${props.user.patronymic}`}</h2>
+        {/* Данные студента хотел сделать через компонент DescList,
+            но не получилось стилизовать компонент DescListItem так,
+            чтобы ключ и значение были прижаты к центру и разделены пробелом */}
         {/* <DescList data={userData}/> */}
         <div className={styles['user__data']}>
           <ul className={`${styles['data__keys']} list-reset`}>

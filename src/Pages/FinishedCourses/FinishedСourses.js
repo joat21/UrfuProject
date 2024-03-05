@@ -15,6 +15,7 @@ const FinishedCourses = () => {
 
   return (
     <PageTemplate title={"Пройденные курсы"}>
+      {/* Фильтрация не реализована ни на одной странице */}
       <Form.Select name="semester-select" className={styles['form__select']}>
         <option className={styles['form__option']} value="all">Все семестры</option>
         <option className={styles['form__option']} value="1">1 семестр</option>

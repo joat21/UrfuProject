@@ -4,6 +4,7 @@ import styles from "./DonutChartWithLegend.module.css"
 const DonutChart = ({ data, colors }) => {
   return (
     <>
+      {/* для диаграммы использовал библиотеку recharts */}
       <PieChart className={styles.chart} width={350} height={350}>
         <Pie
           data={data}

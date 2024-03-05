@@ -1,20 +1,20 @@
-.desc-list__item {
+.item {
   display: flex;
   flex-wrap: wrap;
 }
 
-.data__key::after {
+.key::after {
   content: ":";
 }
 
-.data__key {
+.key {
   font-size: 16px;
   font-weight: 500;
   line-height: normal;
   color: #000;
 }
 
-.data__value {
+.value {
   margin: 0;
   margin-left: auto;
   font-size: 16px;

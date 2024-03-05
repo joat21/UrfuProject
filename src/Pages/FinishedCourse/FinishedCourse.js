@@ -12,9 +12,11 @@ const FinishedCourse = () => {
     <PageTemplate title={`${course.code} ${course.name}`} isReturnButtonVisible={false}>
       <div className={styles.container}>
         <div className={styles['course__desc']}>
-          <section className={styles['grading']}>
+          <section className={styles.grading}>
+            {/* В карточке в прогресс баре неправильно отображается точка с кол-вом баллов */}
             <GradingCard grade={course.grade}/>
 
+            {/* Вынести в отдельный компонент и добавить динамические данные */}
             <ul className={`${styles['grading__list']} list-reset`}>
               <li className={styles['grading__item']}>
                 <span className={styles['item__text']}>

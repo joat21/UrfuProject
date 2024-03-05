@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import PageTemplate from "../../Components/PageTemplate/PageTemplate";
 import UserInfo from "../../Components/UserInfo/UserInfo";
 import MentorsList from "../../Components/MentorsList/MentorsList";
-// import styles from "./MyDirection.module.css";
 
 const Personal = () => {
   const [user, setUser] = useState({});
@@ -15,6 +14,7 @@ const Personal = () => {
   }
 
   useEffect(() => {
+    // Возможно стоит перейти на MockAPI или что то аналогичное, работать удобнее будет
     fetch("https://my-json-server.typicode.com/joat21/UrfuProject/user")
       .then(response => response.json())
       .then(data => setUser(data));

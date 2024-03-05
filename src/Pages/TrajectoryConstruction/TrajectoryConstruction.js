@@ -1,6 +1,7 @@
 import { Accordion } from "react-bootstrap";
 import PageTemplate from "../../Components/PageTemplate/PageTemplate";
 
+// Черновик страницы
 const TrajectoryConstruction = () => {
   return (
     <PageTemplate title="Построение траектории">

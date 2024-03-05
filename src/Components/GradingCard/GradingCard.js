@@ -7,7 +7,6 @@ const GradingCard = (props) => {
     <Card className={styles.card}>
       <Card.Body className={styles.body}>
         <Card.Title className={styles.title}>Итоговый балл:</Card.Title>
-        {/* <Card.Text>93/100</Card.Text> */}
         <GradingBar grade={props.grade}/>
       </Card.Body>
     </Card>

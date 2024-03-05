@@ -1,4 +1,4 @@
-import { Button, Form } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 import styles from "./CareerTestQuestion.module.css";
 
 const CareerTestQuestion = ({ question, onChooseVariant }) => {

@@ -14,9 +14,9 @@ const DescListItem = (props) => {
   }
 
   return (
-    <div className={styles['desc-list__item']}>
-      <dt className={styles['data__key']}>{props.dataKey}</dt>
-      <dd className={styles['data__value']}>{value}</dd>
+    <div className={styles.item}>
+      <dt className={styles.key}>{props.dataKey}</dt>
+      <dd className={styles.value}>{value}</dd>
     </div>
   );
 }

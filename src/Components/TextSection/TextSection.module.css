@@ -1,4 +1,4 @@
-.section__title {
+.title {
   margin-bottom: 20px;
   font-size: 24px;
   font-weight: 500;
@@ -6,12 +6,12 @@
   color: #2B4A52;
 }
 
-.section__title,
-.section__text {
+.title,
+.text {
   white-space: pre-line;
 }
 
-.section__text {
+.text {
   font-size: 20px;
   font-weight: 400;
   line-height: normal;

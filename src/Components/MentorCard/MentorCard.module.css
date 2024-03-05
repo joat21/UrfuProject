@@ -1,4 +1,4 @@
-.mentor-card {
+.card {
   border: 3px solid #2b4a52;
   border-radius: 0;
   max-width: 500px;
@@ -7,24 +7,24 @@
   background-color: #f9f9f9;
 }
 
-.card-body {
+.body {
   display: flex;
 }
 
-.card__content {
+.content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
 }
 
-.mentor-card__photo {
+.photo {
   margin-right: 16px;
   width: 187px;
   object-fit: contain;
 }
 
-.mentor__name {
+.name {
   font-size: 18px;
   font-weight: 500;
   line-height: normal;

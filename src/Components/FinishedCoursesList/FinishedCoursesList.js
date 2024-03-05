@@ -3,9 +3,9 @@ import styles from "./FinishedCoursesList.module.css";
 
 const FinishrdCoursesList = (props) => {
   return (
-    <ul className={`list-reset ${styles['courses-list']}`}>
+    <ul className={`list-reset ${styles.list}`}>
       {props.finishedCourses.map((finishedCourse) => (
-        <li key={finishedCourse.id} className="courses__item">
+        <li key={finishedCourse.id}>
           <CourseCard
             finished={true}
             course={finishedCourse}

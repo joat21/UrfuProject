@@ -1,11 +1,11 @@
 import MentorCard from "../MentorCard/MentorCard";
-import "./MentorsList.css";
+import styles from "./MentorsList.module.css";
 
 const MentorsList = (props) => {
   return (
-    <ul className="list-reset mentors-list">
+    <ul className={`list-reset ${styles.list}`}>
       {props.mentors.map((mentor) => (
-        <li key={mentor.id} className="mentors__item">
+        <li key={mentor.id} className={styles.item}>
             <MentorCard mentor={mentor} />
         </li>
       ))}

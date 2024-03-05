@@ -230,10 +230,6 @@ fieldset:disabled .btn {
   flex-direction: column;
   position: fixed;
   padding-top: 5px;
-  /* z-index: 1; */
-  /* top: 0;
-  left: 0; */
-  /* max-width: 70px; */
   height: 100%;
   background: #537173;
   background-size: 70px 100%;
@@ -253,24 +249,6 @@ fieldset:disabled .btn {
 .sidenav__link:hover {
   background-color: #c05640;
 }
-
-/* .sidenav__link::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 70px;
-  background-color: #c05640;
-  opacity: 0;
-  transition: opacity 0.4s ease-in-out, width 0.4s ease-in-out;
-}
-
-.sidenav__link:hover::before {
-  width: 373px;
-  opacity: 1;
-} */
 
 .sidenav__link:first-child {
   margin-bottom: 22px;
@@ -295,14 +273,3 @@ fieldset:disabled .btn {
   margin-top: auto;
 }
 
-/* dropdown */
-.dropdown-content {
-  min-width: max-content;
-  overflow: hidden;
-  max-height: 0;
-  transition: max-height 0.3s ease-in-out;
-}
-
-.dropdown:hover .dropdown-content {
-  max-height: 120px;
-}
